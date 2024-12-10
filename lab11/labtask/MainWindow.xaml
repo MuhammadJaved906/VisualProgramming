@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp5.BringBackPocoyo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bring Back Pocoyo" Height="300" Width="500">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="2" Padding="10" Margin="10" Background="SkyBlue">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <!-- First Image -->
+                <Image Width="100" Height="100" Margin="5" Source="C:\Users\233546\Downloads\1f11b565a135ed8af4274df833ee89d1.jpg"/>
+                <!-- Second Image -->
+                <Image Width="100" Height="100" Margin="5" Source="C:\Users\233546\Downloads\boat-5296614_1280.jpg"/>
+                <!-- Third Image -->
+                <Image Width="100" Height="100" Margin="5" Source="C:\Users\233546\Downloads\HD-wallpaper-evening-pic-natura-thumbnail.jpg"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

@@ -1,0 +1,15 @@
+C:\Users\233546\source\repos\labtask\labtask\bin\Debug\labtask.exe.config
+C:\Users\233546\source\repos\labtask\labtask\bin\Debug\labtask.exe
+C:\Users\233546\source\repos\labtask\labtask\bin\Debug\labtask.pdb
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.csproj.AssemblyReference.cache
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.csproj.SuggestedBindingRedirects.cache
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\MainWindow.baml
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\MainWindow.g.cs
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\App.g.cs
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask_MarkupCompile.cache
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.g.resources
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.Properties.Resources.resources
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.csproj.GenerateResource.cache
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.csproj.CoreCompileInputs.cache
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.exe
+C:\Users\233546\source\repos\labtask\labtask\obj\Debug\labtask.pdb
