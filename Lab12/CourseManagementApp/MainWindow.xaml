@@ -1,0 +1,15 @@
+﻿<Window x:Class="CourseManagementApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Course Management App" Height="300" Width="400">
+    <Grid>
+        <!-- Button to open Course Form -->
+        <Button Content="Open Course Form" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="30" Margin="120,40,0,0" Click="OpenCourseForm_Click"/>
+
+        <!-- Button to open Student Form -->
+        <Button Content="Open Student Form" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Height="30" Margin="120,90,0,0" Click="OpenStudentForm_Click"/>
+
+        <!-- Button to open Unassigned Courses Form -->
+        <Button Content="Open Unassigned Courses Form" HorizontalAlignment="Left" VerticalAlignment="Top" Width="200" Height="30" Margin="120,140,0,0" Click="OpenUnassignedCoursesForm_Click"/>
+    </Grid>
+</Window>
