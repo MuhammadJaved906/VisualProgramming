@@ -1,0 +1,18 @@
+﻿@typeparam TItem
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">@Question.QuestionText</h5>
+        <ul>
+            <li>@Question.Option1</li>
+            <li>@Question.Option2</li>
+            <li>@Question.Option3</li>
+            <li>@Question.Option4</li>
+        </ul>
+        <p class="card-text"><strong>Difficulty Level:</strong> @Question.DifficultyLevel</p>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public Question Question { get; set; }
+}

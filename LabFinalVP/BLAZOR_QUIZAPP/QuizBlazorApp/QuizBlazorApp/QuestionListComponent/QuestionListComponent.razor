@@ -1,0 +1,18 @@
+﻿@page "/questionlist"
+@inject HttpClient Http
+
+<h3>Quiz Questions</h3>
+
+@foreach (var question in Questions)
+{
+    <QuestionCard Question="@question" />
+}
+
+@code {
+    private List<Question> Questions = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        Questions = await Http.GetFromJsonAsync<List<Question>>("sample-data/questions.json");
+    }
+}

@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\C#\\QuizBlazorApp\\QuizBlazorApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\QuizBlazorApp.bundle.scp.css",
+      "PackagePath": "staticwebassets\\QuizBlazorApp.8rxjbi49ew.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\C#\\QuizBlazorApp\\QuizBlazorApp\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "E:\\C#\\QuizBlazorApp\\QuizBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\C#\\QuizBlazorApp\\QuizBlazorApp\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\C#\\QuizBlazorApp\\QuizBlazorApp\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuizBlazorApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.QuizBlazorApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.QuizBlazorApp.props",
+      "PackagePath": "build\\QuizBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.QuizBlazorApp.props",
+      "PackagePath": "buildMultiTargeting\\QuizBlazorApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.QuizBlazorApp.props",
+      "PackagePath": "buildTransitive\\QuizBlazorApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
