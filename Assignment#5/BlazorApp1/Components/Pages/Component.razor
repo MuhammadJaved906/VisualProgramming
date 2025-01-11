@@ -1,0 +1,60 @@
+﻿@page "/component"
+
+@using BlazorApp1.Components.NewFolder2
+<!--Made By Rayyan-->
+
+<h3>Servers</h3>
+<br />
+<ul>
+    <!--Made By Rayyan-->
+    <div class="container text-center">
+        <div class="row">
+            @foreach (var city in cities)
+            {
+                <!--Made By Rayyan-->
+                <div class="col-2 mb-3">
+                    <!-- 6 columns per row (adjust as needed) -->
+                    <div class="card">
+                        <img src="@($"/NewFolder/{city}.png")" class="card-img-top fixed-size-img" alt="Image of @city" />
+                        <div class="card-body">
+                            <button type="button" class="btn btn-primary w-100" style="font-size: 14px; padding: 5px;">@city</button>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+    <!--Made By Rayyan-->
+    @foreach (var server in servers)
+    {
+        <li>
+            @server.Name in @server.City is
+            <span style="@($"color:{(server.IsOnline ? "green" : "red")}")">
+                @(server.IsOnline ? "online" : "offline")
+            </span>
+            &nbsp;
+            <a href="/component/@server.Id" class="btn-link">Edit</a>
+        </li>
+    }
+</ul>
+<!--Made By Rayyan-->
+@code {
+    private List<Server> servers = ServersRepository.GetServersByCity("Toronto");
+    private List<string> cities = CitiesRepository.GetCities();
+}
+
+
+
+<!--Made By Rayyan-->
+<!-- 
+<h3>Component</h3>
+<br />
+<br />
+
+
+<ServerComponent></ServerComponent>
+
+@code {
+
+}
+-->

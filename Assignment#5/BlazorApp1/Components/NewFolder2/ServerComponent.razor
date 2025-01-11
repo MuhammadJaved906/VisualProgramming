@@ -1,0 +1,64 @@
+﻿<!--Made By Rayyan-->
+@namespace BlazorApp1.Components.NewFolder2
+<div data-name="@server.Name"
+     data-status="Server is @(server.IsOnline ? "online" : "offline")"
+     style="color: @(server.IsOnline ? "green" : "red")">
+    @server.Name is in @server.City that is @(server.IsOnline ? "online" : "offline")
+</div>
+
+@code {
+    private Server server = new Server { Name = "Server 1", City = "toronto", IsOnline = true };
+}
+<!--Made By Rayyan-->
+
+<!--
+<div data-name="@server.Name"
+     data-status="Server is @(server.IsOnline ? "online" : "offline")"
+     style="color: @(server.IsOnline ? "green" : "red")">
+    @server.Name is in @server.City that is @(server.IsOnline ? "online" : "offline")
+</div>
+
+@code {
+    private Server server = new Server { Name = "Server 1", City = "toronto", IsOnline = true };
+}
+-->
+
+
+
+
+
+
+
+
+<!-- explicit
+
+
+<div data-name ="@server.Name">
+    @server.Name is in @server.City that is @(server.IsOnline?"online":"offline")
+</div>
+
+@code {
+    private Server server = new Server { Name = "Server 1", City = "toronto" };
+}
+
+-->
+
+
+<!-- implicit
+<p>
+    @server.Name is in @server.City
+</p>
+@code{
+    private Server server = new Server { Name = "Server 1", City = "toronto" };
+}
+-->
+
+<!-- 
+<p>
+    @status at @DateTime.Now
+</p>
+
+@code {
+    private string status = "server is Offline";
+}
+-->

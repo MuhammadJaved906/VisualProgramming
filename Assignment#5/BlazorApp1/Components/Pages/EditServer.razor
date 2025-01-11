@@ -1,0 +1,16 @@
+﻿@page "/component/{id:int}"
+
+<h3>Edit Server</h3>
+<br />
+<p>Editing server with ID: @Id</p>
+
+@code {
+    [Parameter]
+    public int Id { get; set; } // Changed from `string` to `int` since your route expects an integer.
+
+    protected override void OnInitialized()
+    {
+        // Add logic here if you need to fetch the server details based on the ID.
+        Console.WriteLine($"Received Server ID: {Id}");
+    }
+}
